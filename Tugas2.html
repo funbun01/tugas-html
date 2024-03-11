@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Tugas 2</title>
+    </head>
+    <body>
+        <h1>Form registrasi</h1>
+        <form action="" method="get">
+            <fieldset>
+                <legend>Biodata</legend>
+                <p>Nama Mahasiswa &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  :<input type="text" name="text_form" size="20" placeholder="Nama anda"></p>
+                <p>No Induk Mahasiswa (NIM)&emsp;&emsp;&nbsp;:<input type="text" name="text_form" size="20" placeholder="123456789"></p>
+                <p>Alamat Mahasiswa &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;:<textarea name="textarea_form" cols="30" rows="10" placeholder="Alamat Anda"></textarea></p>
+                <p> Tanggal lahir&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;:
+                    <select name="date">
+                        <option value="1" selected>01</option>
+                        <option value="2">02</option>
+                        <option value="3">03</option>
+                        <option value="4">04</option>
+                    </select>
+                    <select name="Month">
+                        <option value="1" selected>January</option>
+                        <option value="2">February</option>
+                        <option value="3">March</option>
+                        <option value="4">April</option>
+                    </select>
+                    <select name="Year">
+                        <option value="1" selected>1990</option>
+                        <option value="2">1991</option>
+                        <option value="3">1992</option>
+                        <option value="4">1993</option>
+                    </select>
+                </p>
+                <p>jenis kelamin &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; :
+                    <input type="radio" name="radio" value="radio1" id="radio1" ><label for="radio1">Pria</label>
+                    <input type="radio" name="radio" value="radio1" id="radio1" ><label for="radio1">Wanita</label>
+                </p>
+                <p>Upload foto &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; :
+                    <input type="file" name="file">
+                </p>
+                <p>URL website &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; :
+                    <input type="url" name="homepage" id="homepage" size="30">
+                </p>
+                <p>Perguruan tinggi &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; :
+                    <input type="text">
+                </p>
+
+            </fieldset>
+<br>
+            <fieldset>
+                <legend>Info akun</legend>
+                <p>Email &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; :
+                    <input type="email" name="email_form" size="20" placeholder="Email Anda">
+                </p>
+                <p>Username &emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;:
+                    <input type="text" name="username_form" size="20" placeholder="Username Anda">
+                </p>
+                <p>Password &emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;:
+                    <input type="password" name="password_form" size="20" placeholder="Password Anda">
+                </p>
+                <p>Ulangi Password &emsp;&nbsp;&nbsp;&nbsp;:
+                    <input type="password" name="password_form" size="20" placeholder="Password Anda">
+                </p>
+            </fieldset>
+<br>
+            <fieldset>
+                <legend>Kemampuan dasar</legend>
+                <input type="checkbox" name="checkbox1" value="checkbox1" id="checkbox1"><label for="checkbox1">HTML</label>
+                <input type="checkbox" name="checkbox2" value="checkbox2" id="checkbox2"><label for="checkbox2">CSS</label>
+                <input type="checkbox" name="checkbox3" value="checkbox3" id="checkbox3"><label for="checkbox3">JavaScript</label>
+                <input type="checkbox" name="checkbox4" value="checkbox4" id="checkbox4"><label for="checkbox4">PHP</label>
+                <input type="checkbox" name="checkbox5" value="checkbox5" id="checkbox5"><label for="checkbox5">MySQL</label>
+                <input type="checkbox" name="checkbox6" value="checkbox6" id="checkbox6"><label for="checkbox6">Lavarel</label>
+                <input type="checkbox" name="checkbox7" value="checkbox7" id="checkbox7"><label for="checkbox7">React Native</label>
+            </fieldset>
+            <p>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Simpan">
+                <input type="button" value="Button" onclick="">
+            </p>
+        </form>
+    </body>
